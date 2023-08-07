@@ -4,7 +4,7 @@ import Header from './components/Header.js';
 
 function App() {
   return (
-    <div className="App bg-white h-screen">
+    <div className="h-screen">
       <Navigation />
       <Header />
     </div>
