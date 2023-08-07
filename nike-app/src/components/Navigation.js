@@ -4,8 +4,8 @@ import React from 'react';
 function Navigation() {
   return (
     <div>
-        <nav>
-            <div class="max-w-screen-xl flex mx-auto p-4 justify-center">
+        <nav className='z-50'>
+            <div class="max-w-screen-xl flex mx-auto">
                 <a href="https://flowbite.com/" class="flex">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/800px-Logo_NIKE.svg.png?20220908234918" class="h-8 mt-4" alt="Nike Logo" />
                 </a>
@@ -15,20 +15,20 @@ function Navigation() {
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
                     </svg>
                 </button>
-                <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-                <ul class="font-medium flex  p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 md:border-0">
+                <div class="hidden w-fit md:block mx-auto flex relative pl-4 pr-20" id="navbar-default">
+                <ul class="font-medium flex md:p-0 md:flex-row md:space-x-12 md:mt-4 md:border-0">
                     <li>
-                    <a href="#" class="block py-2 pl-3 pr-4 text-gray-950  md:bg-transparent md:text-gray-950 md:p-0  md:dark:text-gray-950 text-2xl" aria-current="page">HOME</a>
+                    <a href="#" class="block py-2 pl-4 pr-4 text-gray-950  md:bg-transparent md:text-zinc-800 md:p-0  md:dark:text-gray-950 text-2xl" aria-current="page">HOME</a>
                     </li>
-                    <li> <div className='block h-5 mt-2 border-solid border border-gray-400'></div> </li>
+                    <li> <div className='block h-5 mt-2 border-solid border border-zinc-500'></div> </li>
                     <li>
-                    <a href="#" class="block py-2 pl-3 pr-4 text-gray-950  md:bg-transparent md:text-gray-950 md:p-0  md:dark:text-gray-950 text-2xl">PRODUCTS</a>
-                    </li>
-                    <li>
-                    <a href="#" class="block py-2 pl-3 pr-4 text-gray-950  md:bg-transparent md:text-gray-950 md:p-0  md:dark:text-gray-950 text-2xl">ABOUT US</a>
+                    <a href="#" class="block py-2 pl-4 pr-4 text-gray-950  md:bg-transparent md:text-zinc-800 md:p-0  md:dark:text-gray-950 text-2xl">PRODUCTS</a>
                     </li>
                     <li>
-                    <a href="#" class="block py-2 pl-3 pr-4 text-gray-950  md:bg-transparent md:text-gray-950 md:p-0  md:dark:text-gray-950 text-2xl">CONTACT US</a>
+                    <a href="#" class="block py-2 pl-4 pr-4 text-gray-950  md:bg-transparent md:text-zinc-800 md:p-0  md:dark:text-gray-950 text-2xl">ABOUT US</a>
+                    </li>
+                    <li>
+                    <a href="#" class="block py-2 pl-4 pr-4 text-gray-950  md:bg-transparent md:text-zinc-800 md:p-0  md:dark:text-gray-950 text-2xl">CONTACT US</a>
                     </li>
                 </ul>
                 </div>
